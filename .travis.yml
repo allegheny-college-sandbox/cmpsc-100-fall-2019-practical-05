@@ -42,5 +42,5 @@ script:
   - gradle clean
   - gradle check
   - gradle build
-  - gradle run --args="5.97"
+  - gradle run
   - gradle grade -x build
