@@ -52,7 +52,7 @@ public class EncounterCheck {
     System.out.println("To defeat the " + title + ":");
     System.out.println("Gator needed to roll\t" + check);
     System.out.println("Gator's actual roll\t" + roll);
-    if(roll > check){
+    if (roll > check) {
       System.out.println("And the Gator Wizard trimphed!");
     } else {
       System.out.println("And the Gator Wizard succumbed!");
