@@ -1,0 +1,23 @@
+---
+name: practical-05
+break: true
+indent: 4
+---
+src/main:
+    java:
+        gatorquest/EncounterCheck.java:
+            ConfirmFileExists
+            MatchFileFragment --fragment "import java.util.Scanner;" --count 1 --exact
+            MatchFileFragment --fragment "scanner.nextInt();" --count 2 --exact
+            MatchFileFragment --fragment "scanner.next();" --count 2 --exact
+            MatchFileFragment --fragment "d13.nextInt(13) + 1;" --count 2 --exact
+            MatchFileFragment --fragment "TODO" --count 0 --exact
+            MatchFileFragment --fragment "{YOUR NAME HERE}" --count 0 --exact
+            
+            
+CountCommits --count 2
+ExecuteCommand --command "gradle build"
+MatchCommandFragment --command "gradle run" --fragment "paper jam" --count 1 --exact
+MatchCommandFragment --command "gradle run" --fragment "typo avalanche" --count 1 --exact
+MatchCommandRegex --command "gradle run" --regex "Gator\sneeded\sto\sroll\t([1])?[0-9]{,2}" --count 2 --exact
+MatchCommandRegex --command "gradle run" --regex "Gator\'s\sactual\sroll\t([1])?[0-9]{,2}" --count 2 --exact 

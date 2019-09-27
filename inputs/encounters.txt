@@ -1,0 +1,2 @@
+paper_jam 12
+typo_avalanche 100
