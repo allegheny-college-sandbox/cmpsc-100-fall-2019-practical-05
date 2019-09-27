@@ -5,7 +5,7 @@ indent: 4
 ---
 src/main:
     java:
-        gatorquest/EncounterCheck.java:
+        humanquest/EncounterCheck.java:
             ConfirmFileExists
             MatchFileFragment --fragment "import java.util.Scanner;" --count 1 --exact
             MatchFileFragment --fragment "scanner.nextInt();" --count 2 --exact

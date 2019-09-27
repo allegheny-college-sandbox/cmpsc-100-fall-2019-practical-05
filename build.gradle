@@ -20,7 +20,7 @@ repositories {
 }
 
 apply plugin: 'application'
-mainClassName = 'gatorquest.EncounterCheck'
+mainClassName = 'humanquest.EncounterCheck'
 
 
 apply plugin: 'checkstyle'

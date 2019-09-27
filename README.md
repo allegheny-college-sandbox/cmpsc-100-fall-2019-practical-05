@@ -19,7 +19,7 @@ This practical engages with concepts underpinning the use of `method`s and `clas
 * [Cloning your repository](#cloning-your-repository)
 * [Slack](#slack)
 * [Github](#github)
-* [GatorQuest: Part 1](#gator-quest-part-1)
+* [HumanQuest: Part 1](#humanquest-part-1)
 * [GatorGrader](#gatorgrader)
 * [`commit` your work](#commit-your-work)
 
@@ -39,9 +39,9 @@ Before beginning the practical session, log into our shared [Slack](https://cmps
 
 An individualized version of this assignment is available on our GitHub Classroom platform. The link for accepting your individual repository is in the `#practicals` channel of our [Slack](#slack).
 
-## GatorQuest: Part 1
+## HumanQuest: Part 1
 
-All across the Gator Kingdom, gators have become obsessed with "GatorQuest," a game in which gator-kind attempts to role-play situations from the human world which are _as boring and mundane as possible_. These include "saving throws" from office small talk, engaging in fierce office politics battles, and various encounters with formidable office woes.
+All across the Gator Kingdom, gators have become obsessed with "HumanQuest," a game in which gator-kind attempts to role-play situations from the human world which are _as boring and mundane as possible_. These include the perils of office small talk, engaging in fierce office politics battles, and various encounters with formidable office woes.
 
 The game is played with different dice, but when doing battle with office supplies, the game requires that players roll a 13-sided die. (Of course, this kind of thing is only possible in the Gator World.) As luck would have it, the game is so popular that all of the dice have sold out.
 
