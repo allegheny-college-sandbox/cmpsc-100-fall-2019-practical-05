@@ -41,13 +41,13 @@ public class EncounterCheck {
     encounterReport(encounter,checkRoll,result);
   }
   
-  /** Prints the encounterReport
+  /** Prints the encounterReport.
    *
    * @param title The encounter name
    * @param check The required roll
    * @param roll The actual roll
    */
-  public static void encounterReport(String title, int check, int roll){
+  public static void encounterReport(String title, int check, int roll) {
     title = title.replace("_"," ");
     System.out.println("To defeat the " + title + ":");
     System.out.println("Gator needed to roll\t" + check);
